@@ -1,0 +1,9 @@
+node_modules/
+# temporary HTML written by render.mjs
+.slide*.html
+# raw downloads and intermediate screenshots; slides use the cropped copies
+bof-2026-10/assets/armory/
+bof-2026-10/assets/armory-home.png
+bof-2026-10/assets/mixology-em.png
+bof-2026-10/assets/towpath-home.png
+bof-2026-10/assets/towpath-map.png
