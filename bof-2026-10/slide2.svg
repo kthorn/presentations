@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="Montserrat, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFFFFF"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+
+  <!-- Header -->
+  <text x="64" y="58" font-size="16" font-weight="700" letter-spacing="2.4" fill="#4D6182">ARREPATH / ARIADNE</text>
+  <text x="1536" y="58" font-size="16" font-weight="700" letter-spacing="1.2" fill="#3A96DB" text-anchor="end">02 / COMPANY SCALE</text>
+  <text x="64" y="122" font-size="46" font-weight="700" fill="#4D6182">Chemists design strategies.</text>
+  <text x="64" y="178" font-size="46" font-weight="700" fill="#4D6182">Agents explore the molecules.</text>
+  <text x="64" y="222" font-size="22" fill="#5C6B82">Ariadne is the agent I've been building since January. It lets five people run a drug discovery company.</text>
+
+  <!-- Left: what Ariadne is -->
+  <rect x="64" y="256" width="440" height="404" rx="14" fill="#4D6182"/>
+  <text x="96" y="302" font-size="16" font-weight="700" letter-spacing="2" fill="#9FD0F5">ARIADNE</text>
+  <text x="96" y="372" font-size="64" font-weight="700" fill="#FFFFFF">5</text>
+  <text x="146" y="370" font-size="22" fill="#E6ECF5">people in the company</text>
+  <line x1="96" y1="398" x2="472" y2="398" stroke="#7186A6" stroke-width="1.5"/>
+  <text x="96" y="468" font-size="64" font-weight="700" fill="#FFFFFF">~400k</text>
+  <text x="96" y="502" font-size="20" fill="#E6ECF5">lines of code, built with coding agents</text>
+  <line x1="96" y1="528" x2="472" y2="528" stroke="#7186A6" stroke-width="1.5"/>
+  <text x="96" y="572" font-size="30" font-weight="700" fill="#FFFFFF">“Ask Ariadne first”</text>
+  <text x="96" y="606" font-size="19" fill="#E6ECF5">Our CEO and CSO went from no LLMs</text>
+  <text x="96" y="632" font-size="19" fill="#E6ECF5">to using it for everything, every day</text>
+
+  <!-- Right: one scientist, two weeks -->
+  <rect x="536" y="256" width="1000" height="404" rx="14" fill="#F5F7FA"/>
+  <text x="572" y="302" font-size="16" font-weight="700" letter-spacing="2" fill="#3A96DB">ME, OVER TWO WEEKS</text>
+
+  <text x="572" y="410" font-size="92" font-weight="700" fill="#4D6182">20</text>
+  <text x="572" y="452" font-size="22" font-weight="600" fill="#4D6182">design strategies</text>
+  <text x="572" y="480" font-size="18" fill="#5C6B82">evaluated</text>
+
+  <text x="830" y="410" font-size="92" font-weight="700" fill="#4D6182">32,000+</text>
+  <text x="830" y="452" font-size="22" font-weight="600" fill="#4D6182">molecules scored</text>
+  <text x="830" y="480" font-size="18" fill="#5C6B82">by predictive models</text>
+
+  <text x="1310" y="410" font-size="92" font-weight="700" fill="#F74F58">34</text>
+  <text x="1310" y="452" font-size="22" font-weight="600" fill="#4D6182">sent to the lab</text>
+  <text x="1310" y="480" font-size="18" fill="#5C6B82">to be synthesized</text>
+
+  <line x1="572" y1="520" x2="1500" y2="520" stroke="#D5DCE6" stroke-width="1.5"/>
+  <text x="572" y="562" font-size="16" font-weight="700" letter-spacing="2" fill="#3A96DB">IF YOU WRITE SOFTWARE</text>
+  <text x="572" y="600" font-size="23" fill="#4D6182">It's a tech lead running parallel coding agents. <tspan font-weight="700">The strategy</tspan></text>
+  <text x="572" y="632" font-size="23" fill="#4D6182"><tspan font-weight="700">is the plan; the molecules are the implementations.</tspan></text>
+
+  <!-- Division of work -->
+  <rect x="64" y="692" width="1472" height="120" rx="14" fill="#4D6182"/>
+  <text x="100" y="730" font-size="15" font-weight="700" letter-spacing="2" fill="#9FD0F5">ME</text>
+  <text x="100" y="764" font-size="24" font-weight="700" fill="#FFFFFF">Sets the strategy</text>
+  <text x="100" y="792" font-size="17" fill="#C9D4E4">“Evaluate replacement rings on this half”</text>
+  <line x1="508" y1="752" x2="572" y2="752" stroke="#FFFFFF" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="604" y="730" font-size="15" font-weight="700" letter-spacing="2" fill="#9FD0F5">ARIADNE AGENTS, IN PARALLEL</text>
+  <text x="604" y="764" font-size="24" font-weight="700" fill="#FFFFFF">Generate, score, select</text>
+  <text x="604" y="792" font-size="17" fill="#C9D4E4">Thousands of variants, with the evidence</text>
+  <line x1="1052" y1="752" x2="1116" y2="752" stroke="#FFFFFF" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1148" y="730" font-size="15" font-weight="700" letter-spacing="2" fill="#9FD0F5">ME</text>
+  <text x="1148" y="764" font-size="24" font-weight="700" fill="#FFFFFF">Reviews, picks what to make</text>
+  <text x="1148" y="792" font-size="17" fill="#C9D4E4">The final call stays with me</text>
+
+  <text x="1536" y="862" font-size="22" font-weight="700" fill="#4D6182" text-anchor="end">arrepath.com</text>
+</svg>

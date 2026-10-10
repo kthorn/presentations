@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900" viewBox="0 0 1600 900" font-family="Montserrat, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4D6182"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+
+  <!-- Header -->
+  <text x="64" y="58" font-size="16" font-weight="700" letter-spacing="2.4" fill="#4D6182">GENERAL AGENTS, SPECIFIC DOMAINS</text>
+  <text x="1536" y="58" font-size="16" font-weight="700" letter-spacing="1.2" fill="#3A96DB" text-anchor="end">03 / OPEN QUESTION</text>
+  <text x="64" y="128" font-size="52" font-weight="700" fill="#4D6182">What makes a domain agent-ready?</text>
+  <text x="64" y="180" font-size="24" fill="#5C6B82">LLMs bring general intelligence. The domain has to bring data, or a language plus a checker.</text>
+  <text x="64" y="214" font-size="24" fill="#5C6B82">Code has both. That's why coding agents work so well.</text>
+
+  <!-- Chart panel -->
+  <rect x="64" y="256" width="940" height="590" rx="14" fill="#F5F7FA"/>
+  <!-- quadrant tints -->
+  <rect x="150" y="276" width="400" height="248" fill="#EAF3FB"/>
+  <rect x="550" y="524" width="430" height="246" fill="#EEF0F5"/>
+  <rect x="150" y="524" width="400" height="246" fill="#FDECED"/>
+  <!-- axes -->
+  <line x1="150" y1="770" x2="975" y2="770" stroke="#4D6182" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="770" x2="150" y2="282" stroke="#4D6182" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="550" y1="282" x2="550" y2="770" stroke="#C3CBD8" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <line x1="150" y1="524" x2="975" y2="524" stroke="#C3CBD8" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <text x="975" y="806" font-size="17" font-weight="700" letter-spacing="1.6" fill="#4D6182" text-anchor="end">DATA TO TRAIN ON →</text>
+  <text transform="translate(118 770) rotate(-90)" font-size="17" font-weight="700" letter-spacing="1.6" fill="#4D6182">LANGUAGE + CHECKER →</text>
+
+  <!-- quadrant captions -->
+  <text x="166" y="304" font-size="15" font-weight="700" letter-spacing="1.4" fill="#3A96DB">GENERAL LLM + DSL</text>
+  <text x="962" y="550" font-size="15" font-weight="700" letter-spacing="1.4" fill="#7E8AA0" text-anchor="end">FOUNDATION MODELS</text>
+  <text x="166" y="756" font-size="15" font-weight="700" letter-spacing="1.4" fill="#F74F58">NEITHER</text>
+
+  <!-- Code: top-right -->
+  <circle cx="900" cy="330" r="15" fill="#3A96DB"/>
+  <text x="878" y="320" font-size="24" font-weight="700" fill="#4D6182" text-anchor="end">Code</text>
+  <text x="878" y="346" font-size="16" fill="#5C6B82" text-anchor="end">GitHub · compilers · tests</text>
+  <text x="878" y="368" font-size="16" font-weight="600" fill="#3A96DB" text-anchor="end">where this room lives</text>
+
+  <!-- Math / Lean: near Code -->
+  <circle cx="760" cy="440" r="11" fill="#4D6182"/>
+  <text x="782" y="435" font-size="22" font-weight="700" fill="#4D6182">Math</text>
+  <text x="782" y="459" font-size="16" fill="#5C6B82">Lean · lots of papers</text>
+
+  <!-- Chip design -->
+  <circle cx="200" cy="392" r="11" fill="#4D6182"/>
+  <text x="222" y="387" font-size="22" font-weight="700" fill="#4D6182">Chip design</text>
+  <text x="222" y="411" font-size="16" fill="#5C6B82">Verilog · simulators · formal checks</text>
+
+  <!-- Physical objects / OpenSCAD (the mace is on slide 1) -->
+  <circle cx="262" cy="466" r="11" fill="#4D6182"/>
+  <text x="284" y="461" font-size="22" font-weight="700" fill="#4D6182">Physical objects</text>
+  <text x="284" y="485" font-size="16" fill="#5C6B82">OpenSCAD · measure the fit</text>
+
+  <!-- Law: more data than drugs, still no checker (labels left of the dot) -->
+  <circle cx="512" cy="572" r="12" fill="none" stroke="#F74F58" stroke-width="3.5"/>
+  <circle cx="512" cy="572" r="5" fill="#F74F58"/>
+  <text x="490" y="567" font-size="22" font-weight="700" fill="#F74F58" text-anchor="end">Law</text>
+  <text x="490" y="591" font-size="16" fill="#5C6B82" text-anchor="end">lots of text · no checker</text>
+
+  <!-- Proteins -->
+  <circle cx="950" cy="652" r="11" fill="#7E8AA0"/>
+  <text x="928" y="647" font-size="22" font-weight="700" fill="#4D6182" text-anchor="end">Proteins</text>
+  <text x="928" y="671" font-size="16" fill="#5C6B82" text-anchor="end">100M+ evolved sequences · AlphaFold</text>
+
+  <!-- Image generation: most data, no language at all -->
+  <circle cx="950" cy="730" r="11" fill="#7E8AA0"/>
+  <text x="928" y="725" font-size="22" font-weight="700" fill="#4D6182" text-anchor="end">Image generation</text>
+  <text x="928" y="749" font-size="16" fill="#5C6B82" text-anchor="end">billions of captioned images</text>
+
+  <!-- Small molecules -->
+  <circle cx="230" cy="650" r="17" fill="none" stroke="#F74F58" stroke-width="4"/>
+  <circle cx="230" cy="650" r="7" fill="#F74F58"/>
+  <text x="260" y="640" font-size="24" font-weight="700" fill="#F74F58">Small-molecule drugs</text>
+  <text x="260" y="666" font-size="16" fill="#5C6B82">scarce data · approximate checks</text>
+  <text x="260" y="688" font-size="16" fill="#5C6B82">no language: we're writing one</text>
+
+  <!-- Question panel -->
+  <rect x="1040" y="256" width="496" height="590" rx="14" fill="#4D6182"/>
+  <text x="1076" y="306" font-size="16" font-weight="700" letter-spacing="2" fill="#9FD0F5">WHAT I HAVEN'T FIGURED OUT</text>
+  <text font-size="30" font-weight="700" fill="#FFFFFF">
+    <tspan x="1076" y="364">When a domain has</tspan>
+    <tspan x="1076" y="402">no language, do you</tspan>
+    <tspan x="1076" y="440">write one for a general</tspan>
+    <tspan x="1076" y="478">agent, or train a</tspan>
+    <tspan x="1076" y="516">foundation model?</tspan>
+  </text>
+  <line x1="1076" y1="556" x2="1500" y2="556" stroke="#7186A6" stroke-width="1.5"/>
+  <text font-size="22" fill="#E6ECF5">
+    <tspan x="1076" y="610">Is there a Lean for</tspan>
+    <tspan x="1076" y="640">medicinal chemistry?</tspan>
+    <tspan x="1076" y="670" font-weight="700" fill="#FFFFFF">For contracts?</tspan>
+  </text>
+  <text font-size="22" fill="#E6ECF5">
+    <tspan x="1076" y="740">And how do you audit what</tspan>
+    <tspan x="1076" y="770">the agent claims it did?</tspan>
+  </text>
+</svg>
