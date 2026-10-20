@@ -31,6 +31,7 @@ GROUP = {"tablet": "phone", "pc": "home", "console": "home"}
 PREFIXES = [(3, "thousand", "kFLOPS"), (6, "million", "MFLOPS"), (9, "billion", "GFLOPS"),
             (12, "trillion", "TFLOPS"), (15, "quadrillion", "PFLOPS"), (18, "quintillion", "EFLOPS")]
 MONTH = {"Jun": 6, "Nov": 11}
+REPO = "github.com/kthorn/presentations/tree/main/computing-poster"
 
 
 @dataclass(frozen=True)
@@ -76,7 +77,7 @@ POSTER = Layout(
     subtitle=("Peak calculations per second, log scale. Each step up the grid is ten times faster.",),
     footnote=("Peak floating-point operations per second. Supercomputers rated at 64-bit precision (Top500 Rpeak); "
               "consoles, graphics cards and phones at their advertised 32-bit figure. Each line follows the best "
-              "machine so far. Sources: data/machines.csv",),
+              f"machine so far. Data and sources: {REPO}",),
     legend={"supercomputer": "World's fastest supercomputer", "home": "Home PCs &amp; game consoles",
             "phone": "iPhones &amp; iPads"},
     labels={
@@ -102,11 +103,11 @@ POSTER = Layout(
 )
 
 MOBILE = Layout(
-    out="chart-mobile", W=800, H=1000, margins=(150, 24, 232, 128),
+    out="chart-mobile", W=800, H=1000, margins=(150, 24, 232, 142),
     title=("Yesterday's supercomputer", "is in your living room"),
     subtitle=("Calculations per second. Each gridline is 10× faster.",),
     footnote=("Advertised peak speeds: 64-bit for supercomputers, 32-bit for",
-              "consoles, graphics cards and phones. Data: Top500.org, manufacturers."),
+              "consoles, graphics cards and phones. Data and sources:", REPO),
     legend={"supercomputer": "Supercomputers", "home": "PCs &amp; consoles", "phone": "iPhones &amp; iPads"},
     labels={
         "Cray-1": (10, 24, "start"), "Cray-2": (-10, -10, "end"),
